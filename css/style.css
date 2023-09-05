@@ -125,7 +125,7 @@ body{
     display: flex;
     align-items: start;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 80%;
     margin-top: 5%;
     padding: 2.5%;
@@ -259,7 +259,7 @@ li{
 
 .floating{
     width: 70%;
-    height: 20%;
+    height: 90%;
     margin-right: 5%;
 }
 
@@ -267,6 +267,7 @@ li{
     display: flex;
     align-items: center;
     margin-top: 5%;
+    justify-content: start;
 }
 
 .floating-post{
