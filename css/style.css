@@ -259,7 +259,7 @@ li{
 
 .floating{
     width: 70%;
-    height: 70%;
+    height: 20%;
     margin-right: 5%;
 }
 
@@ -271,10 +271,14 @@ li{
 
 .floating-post{
     width: 250%;
-    height: 250%;
+    height: 100%;
     margin-right: 5%;
 }
 
 .main__list{
     width: 100%;
+}
+
+.main__container{
+    padding: 2.5%;
 }
