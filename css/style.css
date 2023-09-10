@@ -133,6 +133,7 @@ body{
 
 .main *{
     background: #FFFFFF85;
+    text-align: center;
 }
 
 .main__text{
@@ -246,9 +247,11 @@ li{
 }
 
 .title{
-    margin-top: 20%;
+    margin-top: 7.5%;
     font-family: "BulgariaModernaPro";
     color: #093369;
+    background-color: #FFFFFF00;
+    text-align: center;
 }
 
 .block{
