@@ -1,8 +1,8 @@
 @charset "UTF-8";
-/* @font-face {
+@font-face {
     font-family: "BulgariaModernaPro";
-    src: url("../public/fonts/BulgariaModernaPro.otf");
-    } */
+    src: url("../fonts/BulgariaModernaPro.otf");
+    }
 
 * {
 	margin: 0;
@@ -56,7 +56,8 @@ button::-moz-focus-inner {
 
 a, a:visited, a:hover {
 	text-decoration: none;
-    color: black;
+    color: #093369;
+    font-family: "BulgariaModernaPro";
 }
 
 ul li {
@@ -74,7 +75,6 @@ h1, h2, h3, h4 h5, h6 {
 }
 
 * {
-	font-family: "BulgariaModernaPro";
     font-size: 20px;
 }
 
@@ -123,14 +123,12 @@ body{
 
 .main{
     display: flex;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
-    justify-content: space-between;
     width: 80%;
     margin-top: 5%;
     padding: 2.5%;
     flex: 1 1 auto;
-    /* height: 100%; */
 }
 
 .main *{
@@ -162,6 +160,8 @@ body{
 
 .objects__text{
     width: 100%;
+    color: #093369;
+    font-family: "BulgariaModernaPro";
 }
 
 .objects__list{
@@ -174,6 +174,8 @@ body{
 
 .objects{
     width: 50%;
+    color: #093369;
+    font-family: "BulgariaModernaPro";
 }
 
 h1{
@@ -206,6 +208,7 @@ li{
     position: absolute;
     background: #FFFFFF85;
     width: 15%;
+    font-family: "BulgariaModernaPro";
 }
 
 .events:hover .events__list{
@@ -213,6 +216,7 @@ li{
     position: absolute;
     background: #FFFFFF85;
     width: 15%;
+    font-family: "BulgariaModernaPro";
 }
 
 .arrow{
@@ -237,6 +241,18 @@ li{
 .team__container, .events__container{
     display: flex;
     align-items: center;
+    font-family: "BulgariaModernaPro";
+    color: #093369;
+}
+
+.title{
+    margin-top: 5%;
+    font-family: "BulgariaModernaPro";
+    color: #093369;
+    text-align: center;
+    font-size: 40px;
+    background-color: #ffffff00;
+    /* width: 120%; */
 }
 
 .block{
@@ -259,7 +275,7 @@ li{
 
 .floating{
     width: 70%;
-    height: 70%;
+    height: 90%;
     margin-right: 5%;
 }
 
@@ -267,14 +283,27 @@ li{
     display: flex;
     align-items: center;
     margin-top: 5%;
+    justify-content: start;
 }
 
 .floating-post{
     width: 250%;
-    height: 250%;
+    height: 100%;
     margin-right: 5%;
 }
 
 .main__list{
     width: 100%;
+}
+
+.main__container{
+    padding: 2.5%;
+}
+
+.not-index{
+    background-color: #ffffff80;
+}
+
+.not-index *{
+    background-color: #ffffff00;
 }
