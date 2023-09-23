@@ -287,7 +287,7 @@ li{
 }
 
 .floating-post{
-    width: 250%;
+    width: 50%;
     height: 100%;
     margin-right: 5%;
 }
@@ -306,4 +306,21 @@ li{
 
 .not-index *{
     background-color: #ffffff00;
+}
+
+.main__container{
+    width: 100%;
+}
+
+.main__container-text{
+    width: 100%;
+}
+
+.diagram{
+    width: 100%;
+}
+
+.big-img{
+    width: 100%;
+    height: 100%;
 }
