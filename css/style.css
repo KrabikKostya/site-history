@@ -307,3 +307,15 @@ li{
 .not-index *{
     background-color: #ffffff00;
 }
+
+.main__container{
+    width: 100%;
+}
+
+.main__container-text{
+    width: 100%;
+}
+
+.diagram{
+    width: 100%;
+}
