@@ -306,6 +306,9 @@ li{
 
 .not-index *{
     background-color: #ffffff00;
+    margin: 0;
+    margin-bottom: 2%;
+    padding: 0;
 }
 
 .main__container{
@@ -324,4 +327,8 @@ li{
     text-align: right;
     width:  25%;
     margin-left: 75%;
+}
+
+.center{
+    text-align: center;
 }
